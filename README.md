@@ -12,25 +12,25 @@ I will be working with three tables namely;
 
 ## LANDING PAGE
 - Marquees table
-artistName:
-Segment:
+1) artistName:
+2) Segment:
 
 - Streaming history table
-  endTime:
-  artistName:
-  TrackName :
-  msPlayed :
+ 1) endTime:
+ 2) artistName:
+ 3) TrackName :
+ 4) msPlayed :
   
 - Search queries table
-  platform:
-  searchTime:
-  searchQuery:
+ 1) platform:
+ 2)searchTime:
+ 3) searchQuery:
 
   ## DATA CLEANING PROCESS
-  - Data Extraction using Numpy (Python library) from JSON to csv
+ - Data Extraction using Numpy (Python library) from JSON to csv
     
-  - Data cleaning in Excel by checking for duplicates and spelling errors
-  ```
+ - Data cleaning in Excel by checking for duplicates and spelling errors
+ ```
   -- data cleaning process
 -- firstly change the nvarchar column in search queries table to datetime
 
@@ -39,12 +39,10 @@ Segment:
 --REPLACE(searchTime, '[UTC]', '') AS search_time
 --FROM search_queries;
 
-
 --SELECT searchTime,
 --REPLACE(searchTime, '[UTC]', '') AS search_time,
 --CAST(REPLACE(searchTime, '[UTC]', '') AS datetime2) AS converted_datetime
 --FROM search_queries;
-
 
 --UPDATE search_queries
 --SET searchTime = CAST(REPLACE(searchTime, '[UTC]', '') AS datetime2)
