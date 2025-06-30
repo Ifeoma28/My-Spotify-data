@@ -226,6 +226,9 @@ ORDER BY stream_count DESC;
 ```
 - Track artist popularity trends
 Are certain artists gaining or losing popularity over time? (Light listeners that became super listeners)?
+Below are the list of light listeners that have been listened to for more than 30 mins which I classified as super listeners.
+![light listeners convert](https://github.com/Ifeoma28/My-Spotify-data/blob/1d66d7809fe251a83da8a3d1ff5e629a99e0df78/light%20listeners.png)
+
 
 - What are the most common search queries?
 ![search queries](https://github.com/Ifeoma28/My-Spotify-data/blob/6e28e8e64b225a63d0b711d87077026e6ffe9f39/search%20queries.png)
