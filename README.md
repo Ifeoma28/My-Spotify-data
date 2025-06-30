@@ -150,6 +150,8 @@ GROUP BY ms.segment
 SELECT *,ROUND(100.0*converted_campaigns/total_campaigns,2) AS conversion_rate_percent
 FROM Converted_segment;
 ```
+![stream by segment](https://github.com/Ifeoma28/My-Spotify-data/blob/9310470c952d9a133ebcb64742fc599a9dc785cf/stream%20count%20by%20segment.png)
+
 - Those marquee campaigns that led me to stream, which segments convert best?
  ```
 WITH streams AS (
