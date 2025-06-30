@@ -34,7 +34,7 @@ I will be working with three tables namely;
  2) searchTime:
  3) searchQuery:
 
- [Database relationship](https://www.linkedin.com/in/datawithdanny)
+ [Database relationship](https://github.com/Ifeoma28/My-Spotify-data/blob/3b41c7a67a367a80cdd10cb9407dee3abcb10b46/spotify%20relationship%20table.png)
 
   ## DATA CLEANING PROCESS
  - Data Extraction using Numpy (Python library) from JSON to csv
