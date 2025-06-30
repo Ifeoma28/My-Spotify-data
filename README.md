@@ -223,6 +223,8 @@ ORDER BY stream_count DESC;
 Are certain artists gaining or losing popularity over time? (Light listeners that became super listeners)?
 
 - What are the most common search queries?
+![search queries](https://github.com/Ifeoma28/My-Spotify-data/blob/6e28e8e64b225a63d0b711d87077026e6ffe9f39/search%20queries.png)
+
 - What is the total listening time (in minutes) for each segment?
 - Which artist had the highest total listening time among those who ran a Marquee campaign?
 - Which listener type is most influenced by marquee ads?
