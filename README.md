@@ -263,3 +263,5 @@ Are certain artists gaining or losing popularity over time? (Light listeners tha
 
 ## CONCLUSION
 This project taught me how to transform raw engagement data into actionable strategy. I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
+
+I identified that my most engaged listening happens in the evening, especially on Sundays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
