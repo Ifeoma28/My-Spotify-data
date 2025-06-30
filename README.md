@@ -279,6 +279,8 @@ ORDER BY TotalListeningMinutes DESC;
 2) Number of searched artistes that were streamed are more than the number of searched artists in the marquee campaign.
 
 - Top 10 listening days
+![Top 10 listening days](https://github.com/Ifeoma28/My-Spotify-data/blob/23a5a679ef66f621478e20889b6a3ea973bf9479/Top%2010%20listening%20days.png)
+
 
 - Top 2 Peak Listening Hours:
 1) 7 PM – 8 PM (19th hour) – Primary engagement window
