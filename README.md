@@ -284,8 +284,9 @@ ORDER BY TotalListeningMinutes DESC;
 
 - Top 2 Peak Listening Hours:
 1) 7 PM – 8 PM (19th hour) – Primary engagement window
+![peak listening hours](https://github.com/Ifeoma28/My-Spotify-data/blob/d1c3e8e9aa295f5d08db6e45608e60a6aeae2bdc/peak%20listening%20hours.png)
 
-2) 9 AM – 10 AM (9th hour) – Secondary engagement window
+3) 9 AM – 10 AM (9th hour) – Secondary engagement window
 
 ## INSIGHTS
 
