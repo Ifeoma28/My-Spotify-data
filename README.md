@@ -177,6 +177,9 @@ ORDER BY total_minutes DESC;
 ```
 
 - Do super listeners convert less?
+Looking at the chart below, they convert best 
+![super listeners](https://github.com/Ifeoma28/My-Spotify-data/blob/0e89413b896fa860148ec48d69baf127630eff14/conversion%20rate%20per%20segment.png)
+
  
 - Are light listeners turning into moderate ones over time?
  ```
