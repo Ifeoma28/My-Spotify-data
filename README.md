@@ -224,6 +224,16 @@ Are certain artists gaining or losing popularity over time? (Light listeners tha
 - Which artist had the highest total listening time among those who ran a Marquee campaign?
 - Which listener type is most influenced by marquee ads?
 - Is there a pattern between marquee impressions → search → stream?
+- Most engaged days of the week (How does my engagement differ across time (e.g., weekdays vs weekends))?
+```
+SELECT 
+    DATENAME(WEEKDAY, endTime) AS DayOfWeek,
+    COUNT(*) AS TotalStreams,
+    SUM(msPlayed) / 60000.0 AS TotalListeningMinutes
+FROM StreamingHistory
+GROUP BY DATENAME(WEEKDAY, endTime)
+ORDER BY TotalListeningMinutes DESC;
+```
 
 ## ANALYSIS
 - Conversion vs. Engagement
@@ -252,7 +262,9 @@ Are certain artists gaining or losing popularity over time? (Light listeners tha
 -  Search Behavior Missed by Campaigns
 
 1) More of my searched artists were streamed than those targeted via campaigns.
-2) Number of searched artistes that were streamed are more than the number of searched artists in the marquee campaign. 
+2) Number of searched artistes that were streamed are more than the number of searched artists in the marquee campaign.
+
+- Top 10 listening days
 
 ## INSIGHTS
 
@@ -264,4 +276,4 @@ Are certain artists gaining or losing popularity over time? (Light listeners tha
 ## CONCLUSION
 This project taught me how to transform raw engagement data into actionable strategy. I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
 
-I identified that my most engaged listening happens in the evening, especially on Sundays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
+I identified that my most engaged listening happens in the evening, especially on Wednesdays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
