@@ -4,6 +4,14 @@ This case study talks about my personal listening history ,marquee campaigns and
 ## PROBLEM STATEMENT
 So, I requested for my personal Spotify data and I want to see how Marquee campaigns influence my listening behavior and artist popularity over time, as measured by streaming activity and my search interest across my two devices.
 
+## OBJECTIVES
+- Evaluate marquee campaign impact
+- Track artist popularity trends
+- Explore search-to-stream platforms
+- Identify most streamed artists
+- Identify optimal engagement windows
+- Provide insights for personal music discovery
+
 ## ABOUT DATASET
 I will be working with three tables namely; 
 1.	Marquees table
@@ -23,7 +31,7 @@ I will be working with three tables namely;
   
 - Search queries table
  1) platform:
- 2)searchTime:
+ 2) searchTime:
  3) searchQuery:
 
   ## DATA CLEANING PROCESS
@@ -51,7 +59,13 @@ I will be working with three tables namely;
 --WHERE searchTime IS NOT NULL;
 -- I CHANGED THE SEARCHTIME COLUMN TO A DATETIME2 COLUMN
  ```
-## BUSINESS QUESTIONS
+## TOOLS USED
+- python for data extraction
+- excel for cleaning csv file
+- MSSQL for querying
+- Power BI for data viz
+
+## QUESTIONS USED FOR ANALYSIS
 - First of all, evaluate the Marquees table,Which listener segment is most commonly targeted by Marquee?
 ```
 SELECT segment,COUNT(*) AS frequency
@@ -66,6 +80,7 @@ FROM Marquee
 GROUP BY artistName
 ORDER BY frequency DESC;
 ```
+
 - What’s the distribution of segments per artist?
 ```
 SELECT artistName,segment,COUNT(*) AS segment_count
@@ -210,3 +225,41 @@ Are certain artists gaining or losing popularity over time? (Light listeners tha
 - Which listener type is most influenced by marquee ads?
 - Is there a pattern between marquee impressions → search → stream?
 
+## ANALYSIS
+- Conversion vs. Engagement
+1) Super Listeners had the highest conversion rate after being targeted ( they responded best to Marquee campaigns).
+
+2) But Previously Active Listeners delivered the highest total listening time, showing deeper post-click engagement.
+3) Infinity had the most reach and were  targeted twice towards previously active listeners.
+
+- Artist Engagement Depth
+
+1) Dunsin Oyekan was the artist I spent the most time listening to (565 minutes).
+
+2) Tems had the highest number of streams.
+
+3) “Burning” was the top song by listening time, while “Born in the Wild” had the highest stream count.
+
+4) I can see that Dunsin Oyekan, Taylor Swift, Tems, Benson Boone and Nathaniel Bassey kept my interest the longest (Top 5) based on the total minutes i listened to them,
+
+- Track with the longest listening time is 'Olorun Agbaye by Nathaniel Bassey'
+
+- Listener Lifecycle Movement, this shows Artist popularity over time
+1) Artists like Ariana Grande and Lawrence Oyor moved from light listeners to super listeners, showing organic growth in engagement.
+
+2) Only 9 out of 305 one-time streamed artists were ever targeted in a campaign.
+
+-  Search Behavior Missed by Campaigns
+
+1) More of my searched artists were streamed than those targeted via campaigns.
+2) Number of searched artistes that were streamed are more than the number of searched artists in the marquee campaign. 
+
+## INSIGHTS
+
+➤ Conclusion: Quick converters aren’t always the most valuable — strategy should balance activation and depth.
+➤ Artist Engagement Depth Shows how time spent and frequency of streams reflect different forms of engagement.
+➤  Targeting lightly engaged listeners could improve long-term retention due to their growth over time.
+➤ Based on my search queries, Organic interest is not well-aligned with paid targeting — missed opportunity to retarget based on search intent.
+
+## CONCLUSION
+This project taught me how to transform raw engagement data into actionable strategy. I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
