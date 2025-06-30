@@ -269,11 +269,9 @@ ORDER BY TotalListeningMinutes DESC;
 
 2) Tems had the highest number of streams.
 
-3) “Burning” was the top song by listening time, while “Born in the Wild” had the highest stream count.
+3) “Burning” was the top song by listening time followedby "Olorun Agbaye by Nathaniel Bassey", while “Born in the Wild” had the highest stream count.
 
-4) I can see that Dunsin Oyekan, Taylor Swift, Tems, Benson Boone and Nathaniel Bassey kept my interest the longest (Top 5) based on the total minutes i listened to them,
-
-- Track with the longest listening time is 'Olorun Agbaye by Nathaniel Bassey'
+4) I can see that Dunsin Oyekan, Taylor Swift, Tems, Benson Boone and Nathaniel Bassey kept my interest the longest (Top 5) based on the total minutes i listened to them.
 
 - Listener Lifecycle Movement, this shows Artist popularity over time
 1) Artists like Ariana Grande and Lawrence Oyor moved from light listeners to super listeners, showing organic growth in engagement.
