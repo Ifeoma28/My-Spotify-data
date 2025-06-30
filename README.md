@@ -250,6 +250,7 @@ ORDER BY TotalListeningMinutes DESC;
 1) Super Listeners had the highest conversion rate after being targeted ( they responded best to Marquee campaigns).
 
 2) But Previously Active Listeners delivered the highest total listening time, showing deeper post-click engagement.
+
 3) Infinity had the most reach and were  targeted twice towards previously active listeners.
 
 - Artist Engagement Depth
@@ -283,13 +284,21 @@ ORDER BY TotalListeningMinutes DESC;
 
 ## INSIGHTS
 
-➤ Conclusion: Quick converters aren’t always the most valuable — strategy should balance activation and depth.
+➤  Based on the conversion rate for segments, Quick converters aren’t always the most valuable — strategy should balance activation and depth (listening times)
+
 ➤ Artist Engagement Depth Shows how time spent and frequency of streams reflect different forms of engagement.
+
 ➤  Targeting lightly engaged listeners could improve long-term retention due to their growth over time.
+
 ➤ Based on my search queries, Organic interest is not well-aligned with paid targeting — missed opportunity to retarget based on search intent.
+
 ➤ My peak listening hours reveals how campaigns, playlists, or artist recommendations could be more effective when aligned with daily mood shifts.
 
 ## CONCLUSION
-This project taught me how to transform raw engagement data into actionable strategy. I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
-
-I identified that my most engaged listening happens in the evening by 7pm or 9:00am in the morning, especially on Wednesdays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
+- This project taught me how to transform raw engagement data into actionable strategy.
+  
+-  I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
+  
+- I identified that my most engaged listening happens in the evening by 7pm or 9:00am in the morning, especially on Wednesdays.
+  
+- I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
