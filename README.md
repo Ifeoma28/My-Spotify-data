@@ -234,6 +234,16 @@ FROM StreamingHistory
 GROUP BY DATENAME(WEEKDAY, endTime)
 ORDER BY TotalListeningMinutes DESC;
 ```
+- most engaged listening times during the day ?
+```
+SELECT 
+    DATEPART(HOUR, endTime) AS Hour_of_day,
+    COUNT(*) AS TotalStreams,
+    SUM(msPlayed) / 60000.0 AS TotalListeningMinutes
+FROM StreamingHistory_music
+GROUP BY DATEPART(HOUR, endTime)
+ORDER BY TotalListeningMinutes DESC;
+```
 
 ## ANALYSIS
 - Conversion vs. Engagement
@@ -266,14 +276,20 @@ ORDER BY TotalListeningMinutes DESC;
 
 - Top 10 listening days
 
+- Top 2 Peak Listening Hours:
+1) 7 PM – 8 PM (19th hour) – Primary engagement window
+
+2) 9 AM – 10 AM (9th hour) – Secondary engagement window
+
 ## INSIGHTS
 
 ➤ Conclusion: Quick converters aren’t always the most valuable — strategy should balance activation and depth.
 ➤ Artist Engagement Depth Shows how time spent and frequency of streams reflect different forms of engagement.
 ➤  Targeting lightly engaged listeners could improve long-term retention due to their growth over time.
 ➤ Based on my search queries, Organic interest is not well-aligned with paid targeting — missed opportunity to retarget based on search intent.
+➤ My peak listening hours reveals how campaigns, playlists, or artist recommendations could be more effective when aligned with daily mood shifts.
 
 ## CONCLUSION
 This project taught me how to transform raw engagement data into actionable strategy. I discovered that segment behavior varies not just by volume but by depth  and also that user intent (search) is often a better predictor of future engagement than ad impressions. Focused storytelling and segment-level analysis brought the ‘why’ behind the numbers to life.
 
-I identified that my most engaged listening happens in the evening, especially on Wednesdays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
+I identified that my most engaged listening happens in the evening by 7pm or 9:00am in the morning, especially on Wednesdays. I also found that my organic search behavior drives most of my new artist discovery — not Spotify's campaigns. By combining streaming behavior with search activity, I could recommend better timing and artist targeting for campaigns, and even improve my own listening experience.
