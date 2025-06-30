@@ -38,8 +38,9 @@ I will be working with three tables namely;
 
   ## DATA CLEANING PROCESS
  - Data Extraction using Numpy (Python library) from JSON to csv
-    
- - Data cleaning in Excel by checking for duplicates and spelling errors
+![python extraction](https://github.com/Ifeoma28/My-Spotify-data/blob/3d39ca1b72602a798579bd6bf949388efe72f99a/pythonsportify_convert.png)
+
+- Data cleaning in Excel by checking for duplicates and spelling errors
  - MSSQL for querying the dataset.
  -  Below are the cleaning techniques performed using sql
  ```
