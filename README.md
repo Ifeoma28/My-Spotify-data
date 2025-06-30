@@ -34,6 +34,8 @@ I will be working with three tables namely;
  2) searchTime:
  3) searchQuery:
 
+ [Database relationship](https://www.linkedin.com/in/datawithdanny)
+
   ## DATA CLEANING PROCESS
  - Data Extraction using Numpy (Python library) from JSON to csv
     
