@@ -11,8 +11,9 @@ This case study talks about my personal listening history ,marquee campaigns and
 - [Data cleaning process](#Datacleaningprocess)
 - [Tools used](#Toolsused)
 - [Queries](#Queries)
-- [Insights](#Insights)
+- [Metrics to measure](#metricstomeasure)
 - [Analysis](#Analysis)
+- Insights](#Insights)
 - [Conclusion](#conclusion)
 
 
