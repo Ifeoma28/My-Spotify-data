@@ -3,6 +3,20 @@ This case study talks about my personal listening history ,marquee campaigns and
 
 [An overview](https://www.loom.com/share/8f29e3380837423c93859581f5e63b61)
 
+## Table of Contents
+- [Problem Statement](##PROBLEMSTATEMENT)
+- [Objectives](#Objectives)
+- [About Dataset](#ABOUTDATASET)
+- [Landing Page](#Landingpage)
+- [Data cleaning process](#Datacleaningprocess)
+- [Tools used](#Toolsused)
+- [Queries](#Queries)
+- [Insights](#Insights)
+- [Analysis](#Analysis)
+- [Conclusion](#conclusion)
+
+
+
 ## PROBLEM STATEMENT
 So, I requested for my personal Spotify data and I want to see how Marquee campaigns influence my listening behavior and artist popularity over time, as measured by streaming activity and my search interest across my two devices.
 
@@ -70,7 +84,7 @@ I will be working with three tables namely;
 - MSSQL for querying
 - Power BI for data viz
 
-## QUESTIONS USED FOR ANALYSIS
+## QUERIES
 - First of all, evaluate the Marquees table,Which listener segment is most commonly targeted by Marquee?
 ```
 SELECT segment,COUNT(*) AS frequency
