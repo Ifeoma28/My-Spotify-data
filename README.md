@@ -20,19 +20,19 @@ I will be working with three tables namely;
 
 ## LANDING PAGE
 - Marquees table
-1) artistName:
-2) Segment:
+1) artistName: The name of the artist who was featured in a Spotify Marquee campaign ( a promotional push to re-engage listeners).
+2) Segment: The listener group or audience segment targeted by the campaign.
 
 - Streaming history table
- 1) endTime:
- 2) artistName:
- 3) TrackName :
- 4) msPlayed :
+ 1) endTime: The timestamp (date and time) when a listening session ended — helps determine when i was active.
+ 2) artistName: The name of the artist you streamed during that session.
+ 3) TrackName : The name of the song or track you listened to.
+ 4) msPlayed : Total milliseconds that I listened to the track. This reflects  how much of the song i actually listened to.
   
 - Search queries table
- 1) platform:
- 2) searchTime:
- 3) searchQuery:
+ 1) platform: The text you typed in Spotify’s search bar — could be an artist, track, album, or even mood.
+ 2) searchTime: The timestamp when I performed the search.
+ 3) searchQuery: The device used for the search (e.g., Android, iOS, or desktop) — helps identify user behavior across devices.
 
  ![Database relationship](https://github.com/Ifeoma28/My-Spotify-data/blob/3b41c7a67a367a80cdd10cb9407dee3abcb10b46/spotify%20relationship%20table.png)
 
@@ -258,6 +258,15 @@ FROM StreamingHistory_music
 GROUP BY DATEPART(HOUR, endTime)
 ORDER BY TotalListeningMinutes DESC;
 ```
+
+
+### METRICS TO MEASURE
+- Conversion rate : Percentage of targeted artists (via marquee campaign) that were actually streamed.
+- Total Minutes played : Total listening time across all streamed tracks, Calculated by summing msPlayed / 60000.
+- Total Artistes Targeted : Total number of unique artists promoted to me through Spotify Marquee campaigns.
+- Total Streamed Artistes : Total number of unique artists you actually streamed ( with or without campaign influence).
+- Avg listening time in mins : Average time spent per streamed artist.
+- Stream count : Total number of times tracks were streamed.
 
 ## ANALYSIS
 - Conversion vs. Engagement
