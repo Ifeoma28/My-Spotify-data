@@ -13,7 +13,7 @@ This case study talks about my personal listening history ,marquee campaigns and
 - [Queries](#Queries)
 - [Metrics to measure](#metricstomeasure)
 - [Analysis](#Analysis)
-- Insights](#Insights)
+- [Insights](#Insights)
 - [Conclusion](#conclusion)
 
 
