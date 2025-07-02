@@ -1,6 +1,8 @@
 # My-Spotify-data
 This case study talks about my personal listening history ,marquee campaigns and streaming History. 
 
+[An overview](https://www.loom.com/share/8f29e3380837423c93859581f5e63b61)
+
 ## PROBLEM STATEMENT
 So, I requested for my personal Spotify data and I want to see how Marquee campaigns influence my listening behavior and artist popularity over time, as measured by streaming activity and my search interest across my two devices.
 
