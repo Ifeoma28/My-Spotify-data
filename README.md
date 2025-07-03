@@ -284,6 +284,8 @@ ORDER BY TotalListeningMinutes DESC;
 - Total Streamed Artistes : Total number of unique artists you actually streamed ( with or without campaign influence).
 - Avg listening time in mins : Average time spent per streamed artist.
 - Stream count : Total number of times tracks were streamed.
+![Dashboard]()
+
 
 ## ANALYSIS
 - Conversion vs. Engagement
