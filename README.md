@@ -284,7 +284,7 @@ ORDER BY TotalListeningMinutes DESC;
 - Total Streamed Artistes : Total number of unique artists you actually streamed ( with or without campaign influence).
 - Avg listening time in mins : Average time spent per streamed artist.
 - Stream count : Total number of times tracks were streamed.
-![Dashboard]()
+![Dashboard](https://github.com/Ifeoma28/My-Spotify-data/blob/1334a1557678e0646ecd812d2a872b131bac2fba/SPOTIFY%20DASHBOARD.png)
 
 
 ## ANALYSIS
