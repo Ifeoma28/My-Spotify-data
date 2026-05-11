@@ -3,6 +3,9 @@ This case study talks about my personal listening history ,marquee campaigns and
 
 [An overview](https://www.loom.com/share/f07ec1e1cf4545cf9b5b1947f22e1356?sid=bbb8dc69-dbf9-4790-be9e-c94223c16aa8)
 
+## Author
+Ifeoma Mary-Ann James
+
 ## Table of Contents
 - [Problem Statement](##PROBLEMSTATEMENT)
 - [Objectives](#Objectives)
